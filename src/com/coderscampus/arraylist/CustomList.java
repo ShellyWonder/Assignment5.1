@@ -8,7 +8,7 @@ public interface CustomList<T> {
 	 * @return <code>true</code> if item was successfully added, <code>false</code> if the item was not successfully added (note: it should always be able to add an item to the list) 
 	 *
 	 */
-	boolean add (T item);
+	boolean add (T item);/*(type variable ) */
 	
 	/**
 	 * This method should return the size of the <code>CustomList</code>
