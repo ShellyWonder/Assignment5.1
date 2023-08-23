@@ -34,8 +34,10 @@ public class CustomArrayList<T> implements CustomList<T> {
 	}
 
 	// Create a private helper method `resizeArray()` to handle the array resizing
+	
 	private void resizeArray() {
 		Object[] newItems = new Object[items.length * 2];
+		
 		// System.arraycopy copies the items from the old array to the new array.
 		System.arraycopy(items, 0, newItems, 0, items.length);
 		items = newItems;
